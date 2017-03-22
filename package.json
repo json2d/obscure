@@ -1,6 +1,6 @@
 {
   "name": "obscure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "no nonsense obfuscation for html/css based frontend applications",
   "main": "index.js",
   "scripts": {
@@ -9,12 +9,13 @@
   "repository":{
     "type": "git",
     "url": "https://github.com/bitstrider/obscure"
-  },  
+  },
   "author": "bitstrider",
   "license": "MIT",
-  "bin": {
-    "obscure": "./index.js"
-  },
+  "bin": "./bin/obscure.js",
+  "keywords": [
+    "obfuscate", "css", "html"
+  ],
   "dependencies": {
     "cheerio": "^0.20.0",
     "commander": "^2.9.0",
