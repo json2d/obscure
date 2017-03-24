@@ -1,3 +1,6 @@
+# Atom configs
+.tern-project
+
 # Logs
 logs
 *.log

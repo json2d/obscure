@@ -2,9 +2,9 @@
   "name": "obscure",
   "version": "1.0.1",
   "description": "no nonsense obfuscation for html/css based frontend applications",
-  "main": "index.js",
+  "main": "lib/obscure.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js"
   },
   "repository":{
     "type": "git",
